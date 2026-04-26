@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - FoodHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🍔 FoodHub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Menu</a>
+      <a href="cart.html">Cart 🛒 <span id="cart-count" class="badge">0</span></a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="auth-container">
+      <div class="auth-tabs">
+        <button id="login-tab" class="active" onclick="switchTab('login')">Login</button>
+        <button id="register-tab" onclick="switchTab('register')">Register</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <h2>Welcome Back! 👋</h2>
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit" class="btn-primary big">Login</button>
+      </form>
+
+      <form id="register-form" class="auth-form" style="display:none;">
+        <h2>Create Account ✨</h2>
+        <input type="text" id="reg-name" placeholder="Full Name" required>
+        <input type="email" id="reg-email" placeholder="Email" required>
+        <input type="tel" id="reg-phone" placeholder="Phone">
+        <input type="password" id="reg-password" placeholder="Password (min 6)" required minlength="6">
+        <input type="password" id="reg-confirm" placeholder="Confirm Password" required>
+        <button type="submit" class="btn-primary big">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
