@@ -5,10 +5,10 @@ FoodHub is an online food ordering web application built using HTML, CSS, JavaSc
 ## Team Members
 
 - Antoine Sameh - 2203056
-- Marco Alber - 2203079
 - Ashly Essam - 2203142
 - Samouil Atia - 2203104
 - Peter Saad - 2203049
+- Mina Abdullah - 2203060
 
 ## Features
 
