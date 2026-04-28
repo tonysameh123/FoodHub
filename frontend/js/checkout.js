@@ -21,8 +21,8 @@ if (cart.length === 0) {
     `).join('')}
     <hr>
     <div class="summary-item"><span>Subtotal</span><span>${getCartTotal()} EGP</span></div>
-    <div class="summary-item"><span>Delivery</span><span>20 EGP</span></div>
-    <div class="summary-item total"><span>Total</span><span>${getCartTotal() + 20} EGP</span></div>
+    <div class="summary-item"><span>Delivery</span><span>30 EGP</span></div>
+    <div class="summary-item total"><span>Total</span><span>${getCartTotal() + 30} EGP</span></div>
   `;
 }
 
